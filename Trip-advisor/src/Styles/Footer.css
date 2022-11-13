@@ -1,0 +1,15 @@
+.Footer_main{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(252, 221, 226);
+    margin-top: 40px;
+    text-align: left;
+}
+.Footer_main h5{
+    font-weight: bold;
+}
+.Footer_main p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

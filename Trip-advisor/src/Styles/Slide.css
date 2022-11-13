@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.splidemain{
+    margin: auto;
+    width: 93%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.rating{
+    font-size: 1rem;
+    align-items: center;
+    color: #00aa6c;
+    display: flex;
+}
+.slide {
+ 
+    width: 20rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: left;
+   
+}
+
+
+.slide img{
+   object-fit: cover;
+   width: 20rem;
+   cursor: pointer;
+}
+.slide:hover{
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
+}
